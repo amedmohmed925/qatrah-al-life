@@ -83,8 +83,8 @@ npm run dev
 npm start
 ```
 
-The API will be available at `http://localhost:5000`
-API Documentation: `http://localhost:5000/api-docs`
+The API will be available at `https://qatrah-al-life-ays8.vercel.app/`
+API Documentation: `https://qatrah-al-life-ays8.vercel.app//api-docs`
 
 ## 📚 API Documentation
 
@@ -92,7 +92,7 @@ All API endpoints are documented with Swagger/OpenAPI. Access the interactive do
 
 ### Base URL
 ```
-http://localhost:5000/api
+https://qatrah-al-life-ays8.vercel.app//api
 ```
 
 ## 🔐 Authentication
@@ -374,7 +374,7 @@ qatrah-al-life/
 
 ```bash
 # 1. Login
-curl -X POST http://localhost:5000/api/auth/login \
+curl -X POST https://qatrah-al-life-ays8.vercel.app//api/auth/login \
   -H "Content-Type: application/json" \
   -d '{
     "email": "admin@example.com",
@@ -388,7 +388,7 @@ curl -X POST http://localhost:5000/api/auth/login \
 # }
 
 # 2. Create Service (use token from login)
-curl -X POST http://localhost:5000/api/services \
+curl -X POST https://qatrah-al-life-ays8.vercel.app//api/services \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
   -d '{
@@ -414,7 +414,7 @@ curl -X POST http://localhost:5000/api/services \
 
 ```bash
 # Public endpoint - no authentication needed
-curl -X POST http://localhost:5000/api/bookings \
+curl -X POST https://qatrah-al-life-ays8.vercel.app//api/bookings \
   -H "Content-Type: application/json" \
   -d '{
     "clientName": "أحمد محمد",
@@ -442,7 +442,7 @@ curl -X POST http://localhost:5000/api/bookings \
 ### Example 3: Admin Updates Booking Status
 
 ```bash
-curl -X PATCH http://localhost:5000/api/bookings/507f1f77bcf86cd799439012/status \
+curl -X PATCH https://qatrah-al-life-ays8.vercel.app//api/bookings/507f1f77bcf86cd799439012/status \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer [JWT_TOKEN]" \
   -d '{
@@ -491,16 +491,16 @@ HTTP Status Codes:
 ### Using cURL
 ```bash
 # Get all services
-curl http://localhost:5000/api/services
+curl https://qatrah-al-life-ays8.vercel.app//api/services
 
 # Get specific lab
-curl http://localhost:5000/api/labs/organic
+curl https://qatrah-al-life-ays8.vercel.app//api/labs/organic
 
 # Get products with filtering
-curl "http://localhost:5000/api/products?category=chemicals"
+curl "https://qatrah-al-life-ays8.vercel.app//api/products?category=chemicals"
 
 # Get all news (sorted by date)
-curl http://localhost:5000/api/news
+curl https://qatrah-al-life-ays8.vercel.app//api/news
 ```
 
 ### Using Postman

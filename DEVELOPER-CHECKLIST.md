@@ -19,7 +19,7 @@ Complete checklist for developers integrating this API.
 - [ ] Verify MongoDB connection works
 - [ ] Test email service works
 - [ ] Start development server: `npm run dev`
-- [ ] Access Swagger docs: `http://localhost:5000/api-docs`
+- [ ] Access Swagger docs: `https://qatrah-al-life-ays8.vercel.app//api-docs`
 
 ---
 
@@ -284,10 +284,10 @@ Complete checklist for developers integrating this API.
 
 ```bash
 # Check if server is running
-curl http://localhost:5000
+curl https://qatrah-al-life-ays8.vercel.app/
 
 # Get API docs
-curl http://localhost:5000/api-docs
+curl https://qatrah-al-life-ays8.vercel.app//api-docs
 
 # Check logs (if using PM2)
 pm2 logs qatrah-api

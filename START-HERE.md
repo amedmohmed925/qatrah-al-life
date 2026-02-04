@@ -223,7 +223,7 @@ POST /api/auth/login
 
 ### 5. Interactive API Documentation
 ```
-http://localhost:5000/api-docs
+https://qatrah-al-life-ays8.vercel.app//api-docs
 - Swagger UI
 - Try-it-out for each endpoint
 - Real-time request/response
@@ -261,7 +261,7 @@ npm run dev                   # Start server
 
 ### Step 2: Access API Documentation
 ```
-http://localhost:5000/api-docs
+https://qatrah-al-life-ays8.vercel.app//api-docs
 ```
 - Interactive Swagger UI
 - Test endpoints directly
@@ -271,7 +271,7 @@ http://localhost:5000/api-docs
 ### Step 3: Test First Endpoint
 ```bash
 # Get all services (no auth needed)
-curl http://localhost:5000/api/services
+curl https://qatrah-al-life-ays8.vercel.app//api/services
 ```
 
 ### Step 4: Read Documentation
@@ -386,7 +386,7 @@ PROJECT ROOT
 
 ### For Getting Started
 - [QUICK-START.md](QUICK-START.md) - 5-minute setup
-- [Swagger UI](http://localhost:5000/api-docs) - Interactive testing
+- [Swagger UI](https://qatrah-al-life-ays8.vercel.app//api-docs) - Interactive testing
 
 ### For Integration
 - [README.md](README.md) - Complete reference
@@ -455,7 +455,7 @@ All deliverables verified complete:
 ### Immediate (Now)
 1. ✅ Review [INDEX.md](INDEX.md) for navigation
 2. ✅ Follow [QUICK-START.md](QUICK-START.md) to get running
-3. ✅ Access [Swagger UI](http://localhost:5000/api-docs)
+3. ✅ Access [Swagger UI](https://qatrah-al-life-ays8.vercel.app//api-docs)
 4. ✅ Test 5-10 endpoints
 
 ### Today
@@ -514,7 +514,7 @@ You now have a **complete, production-ready API** with:
 # Quick start in 3 commands:
 npm install
 npm run dev
-# Open http://localhost:5000/api-docs
+# Open https://qatrah-al-life-ays8.vercel.app//api-docs
 ```
 
 Then read [QUICK-START.md](QUICK-START.md) for detailed setup.

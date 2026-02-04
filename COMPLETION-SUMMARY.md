@@ -344,7 +344,7 @@ npm run dev
 
 ### 5. Access API Documentation
 ```
-http://localhost:5000/api-docs
+https://qatrah-al-life-ays8.vercel.app//api-docs
 ```
 
 ---
@@ -387,7 +387,7 @@ http://localhost:5000/api-docs
 ## 🧪 Testing
 
 ### Swagger UI (Interactive)
-- Navigate to `http://localhost:5000/api-docs`
+- Navigate to `https://qatrah-al-life-ays8.vercel.app//api-docs`
 - Test all endpoints directly from browser
 - Automatically populated with JWT tokens
 

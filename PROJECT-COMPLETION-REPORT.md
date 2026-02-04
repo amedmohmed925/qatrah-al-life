@@ -325,7 +325,7 @@ Implemented Security:
 3. Update .env with MongoDB URI and email
 4. Create uploads directory: `mkdir uploads`
 5. Start server: `npm run dev`
-6. Access docs: `http://localhost:5000/api-docs`
+6. Access docs: `https://qatrah-al-life-ays8.vercel.app//api-docs`
 
 ### First Admin Setup
 1. Register: POST /api/auth/register

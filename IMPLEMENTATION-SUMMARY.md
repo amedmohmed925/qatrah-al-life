@@ -234,7 +234,7 @@ ADDITIONAL FEATURES
 2. cp .env.example .env    # Setup configuration
 3. mkdir uploads           # Create uploads directory
 4. npm run dev             # Start development server
-5. Open http://localhost:5000/api-docs  # View API docs
+5. Open https://qatrah-al-life-ays8.vercel.app//api-docs  # View API docs
 ```
 
 ### What You Get
@@ -385,7 +385,7 @@ Protected Operations:
 
 ### 5. API Documentation
 ```
-Access at: http://localhost:5000/api-docs
+Access at: https://qatrah-al-life-ays8.vercel.app//api-docs
 
 Features:
 ✅ Interactive endpoint testing
@@ -540,7 +540,7 @@ READINESS
 7. [COMPLETION-SUMMARY.md](COMPLETION-SUMMARY.md) - Overview
 
 ### Interactive Testing
-- Swagger UI: `http://localhost:5000/api-docs`
+- Swagger UI: `https://qatrah-al-life-ays8.vercel.app//api-docs`
 - Try-it-out functionality
 - Full schema documentation
 - Real-time testing
@@ -584,7 +584,7 @@ READINESS
 IMMEDIATE (Next 1 hour)
 1. Read QUICK-START.md
 2. Run npm install && npm run dev
-3. Access http://localhost:5000/api-docs
+3. Access https://qatrah-al-life-ays8.vercel.app//api-docs
 4. Test 5 endpoints using Swagger UI
 
 SHORT TERM (Today)
@@ -635,7 +635,7 @@ LONG TERM (Before deployment)
 
 1. **Read**: [QUICK-START.md](QUICK-START.md) (5 minutes)
 2. **Setup**: `npm install && npm run dev`
-3. **Explore**: `http://localhost:5000/api-docs`
+3. **Explore**: `https://qatrah-al-life-ays8.vercel.app//api-docs`
 4. **Reference**: [README.md](README.md) for complete guide
 
 **You're all set! Happy coding! 🎉**

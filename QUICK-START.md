@@ -75,7 +75,7 @@ MongoDB Connected: cluster0.mongodb.net
 
 ### Option A: Swagger UI (Recommended)
 ```
-http://localhost:5000/api-docs
+https://qatrah-al-life-ays8.vercel.app//api-docs
 ```
 - Interactive API testing
 - Full documentation
@@ -84,10 +84,10 @@ http://localhost:5000/api-docs
 ### Option B: cURL
 ```bash
 # Get all services (no auth required)
-curl http://localhost:5000/api/services
+curl https://qatrah-al-life-ays8.vercel.app//api/services
 
 # Create a booking
-curl -X POST http://localhost:5000/api/bookings \
+curl -X POST https://qatrah-al-life-ays8.vercel.app//api/bookings \
   -H "Content-Type: application/json" \
   -d '{
     "clientName": "محمد علي",
@@ -101,7 +101,7 @@ curl -X POST http://localhost:5000/api/bookings \
 ### Option C: Postman
 - Import the Swagger docs
 - Click "Collections" → "Import from Link"
-- Use: `http://localhost:5000/api-docs`
+- Use: `https://qatrah-al-life-ays8.vercel.app//api-docs`
 
 ---
 
@@ -120,7 +120,7 @@ curl -X POST http://localhost:5000/api/bookings \
 
 ### 1. Register Admin User
 ```bash
-curl -X POST http://localhost:5000/api/auth/register \
+curl -X POST https://qatrah-al-life-ays8.vercel.app//api/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "username": "admin",
@@ -145,7 +145,7 @@ TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 
 ### 3. Create Your First Service
 ```bash
-curl -X POST http://localhost:5000/api/services \
+curl -X POST https://qatrah-al-life-ays8.vercel.app//api/services \
   -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
   -d '{
@@ -173,28 +173,28 @@ curl -X POST http://localhost:5000/api/services \
 
 ### Get All Products
 ```bash
-curl http://localhost:5000/api/products
+curl https://qatrah-al-life-ays8.vercel.app//api/products
 ```
 
 ### Filter Products by Category
 ```bash
-curl "http://localhost:5000/api/products?category=chemicals"
+curl "https://qatrah-al-life-ays8.vercel.app//api/products?category=chemicals"
 ```
 
 ### Get Site Configuration
 ```bash
-curl http://localhost:5000/api/config
+curl https://qatrah-al-life-ays8.vercel.app//api/config
 ```
 
 ### View All Bookings (Admin)
 ```bash
-curl http://localhost:5000/api/bookings \
+curl https://qatrah-al-life-ays8.vercel.app//api/bookings \
   -H "Authorization: Bearer $TOKEN"
 ```
 
 ### Update Booking Status (Admin)
 ```bash
-curl -X PATCH http://localhost:5000/api/bookings/[BOOKING_ID]/status \
+curl -X PATCH https://qatrah-al-life-ays8.vercel.app//api/bookings/[BOOKING_ID]/status \
   -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
   -d '{ "status": "in_progress" }'
@@ -329,7 +329,7 @@ docker run -p 5000:5000 --env-file .env qatrah-al-life
 - Project Status: `COMPLETION-SUMMARY.md`
 
 ### Check Endpoints
-- Visit Swagger UI: `http://localhost:5000/api-docs`
+- Visit Swagger UI: `https://qatrah-al-life-ays8.vercel.app//api-docs`
 - Try example requests from API-TESTING-GUIDE
 
 ### Common Issues

@@ -4,7 +4,7 @@ Complete guide for testing all API endpoints with example requests and responses
 
 ## 📌 Base URL
 ```
-http://localhost:5000/api
+https://qatrah-al-life-ays8.vercel.app//api
 ```
 
 ## 🔐 Authentication

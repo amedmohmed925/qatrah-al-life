@@ -36,7 +36,7 @@ Welcome! This is your complete guide to the Qatrah Al-Life Environmental Service
 - Common use cases
 
 ### Interactive Testing
-👉 **Swagger UI** at `http://localhost:5000/api-docs`
+👉 **Swagger UI** at `https://qatrah-al-life-ays8.vercel.app//api-docs`
 - Try-it-out for each endpoint
 - See live responses
 - Test with real data
@@ -103,7 +103,7 @@ Welcome! This is your complete guide to the Qatrah Al-Life Environmental Service
 #### 👨‍💻 Frontend Developer
 1. Start: [QUICK-START.md](QUICK-START.md)
 2. Reference: [README.md](README.md) - API section
-3. Test: [Swagger UI](http://localhost:5000/api-docs)
+3. Test: [Swagger UI](https://qatrah-al-life-ays8.vercel.app//api-docs)
 4. Examples: [API-TESTING-GUIDE.md](API-TESTING-GUIDE.md)
 
 #### 🛡️ DevOps/Infrastructure
@@ -138,7 +138,7 @@ Welcome! This is your complete guide to the Qatrah Al-Life Environmental Service
 ### API Endpoints
 - [README.md](README.md#api-endpoints) - Endpoint reference
 - [API-TESTING-GUIDE.md](API-TESTING-GUIDE.md) - 30+ examples
-- [Swagger UI](http://localhost:5000/api-docs) - Interactive docs
+- [Swagger UI](https://qatrah-al-life-ays8.vercel.app//api-docs) - Interactive docs
 
 ### Database Models
 - [README.md](README.md#database-models) - Model schemas
@@ -157,7 +157,7 @@ Welcome! This is your complete guide to the Qatrah Al-Life Environmental Service
 ### Testing
 - [API-TESTING-GUIDE.md](API-TESTING-GUIDE.md) - Test examples
 - [DEVELOPER-CHECKLIST.md](DEVELOPER-CHECKLIST.md#-testing-all-endpoints) - Testing checklist
-- [Swagger UI](http://localhost:5000/api-docs) - Interactive testing
+- [Swagger UI](https://qatrah-al-life-ays8.vercel.app//api-docs) - Interactive testing
 
 ### Troubleshooting
 - [QUICK-START.md](QUICK-START.md#-troubleshooting) - Quick fixes
@@ -283,7 +283,7 @@ Root Directory:
 ### Path 2: I want to understand everything (30 min)
 1. [QUICK-START.md](QUICK-START.md) - Setup (5 min)
 2. [README.md](README.md) - Full docs (15 min)
-3. [Swagger UI](http://localhost:5000/api-docs) - Interactive (10 min)
+3. [Swagger UI](https://qatrah-al-life-ays8.vercel.app//api-docs) - Interactive (10 min)
 
 ### Path 3: I want to verify everything is working (20 min)
 1. [QUICK-START.md](QUICK-START.md) - Setup (5 min)
@@ -319,7 +319,7 @@ See [README.md](README.md#-security-best-practices) for details
 ### Common Questions
 1. **How do I start?** → [QUICK-START.md](QUICK-START.md)
 2. **How do I use an endpoint?** → [API-TESTING-GUIDE.md](API-TESTING-GUIDE.md)
-3. **How do I test?** → [Swagger UI](http://localhost:5000/api-docs)
+3. **How do I test?** → [Swagger UI](https://qatrah-al-life-ays8.vercel.app//api-docs)
 4. **How do I deploy?** → [README.md#deployment-guide](README.md#deployment-guide)
 5. **What am I missing?** → [DEVELOPER-CHECKLIST.md](DEVELOPER-CHECKLIST.md)
 6. **What's completed?** → [PROJECT-COMPLETION-REPORT.md](PROJECT-COMPLETION-REPORT.md)
@@ -353,10 +353,10 @@ mkdir uploads
 npm run dev
 
 # Access API
-http://localhost:5000
+https://qatrah-al-life-ays8.vercel.app/
 
 # Access docs
-http://localhost:5000/api-docs
+https://qatrah-al-life-ays8.vercel.app//api-docs
 ```
 
 ---
@@ -396,7 +396,7 @@ All deliverables completed:
 
 1. **Beginner** (First time)
    - [QUICK-START.md](QUICK-START.md)
-   - [Swagger UI](http://localhost:5000/api-docs)
+   - [Swagger UI](https://qatrah-al-life-ays8.vercel.app//api-docs)
 
 2. **Intermediate** (Building frontend)
    - [README.md](README.md#api-endpoints)
