@@ -1,11 +1,21 @@
 const dotenv = require('dotenv');
-const connectDB = require('./config/db');
+const dbConnect = require('./lib/dbConnect');
 
 // Load env vars
 dotenv.config();
 
-// Connect to database
-connectDB();
+// Connect to database with improved error handling
+dbConnect()
+  .then(() => {
+    console.log('Database connection established');
+  })
+  .catch((err) => {
+    console.error('Failed to connect to database:', err);
+    // Don't exit in serverless environment
+    if (process.env.NODE_ENV !== 'production') {
+      process.exit(1);
+    }
+  });
 
 const app = require('./app');
 

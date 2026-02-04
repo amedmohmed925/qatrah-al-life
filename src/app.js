@@ -7,6 +7,7 @@ const hpp = require('hpp');
 const cors = require('cors');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpecs = require('./config/swagger');
+const ensureDbConnection = require('./middleware/dbMiddleware');
 
 // Route files
 const authRoutes = require('./routes/authRoutes');
@@ -38,6 +39,9 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs, {
   customCss: '.topbar { display: none; }',
   customSiteTitle: 'Qatrah Al-Life API Documentation',
 }));
+
+// Database connection middleware for all API routes
+app.use('/api', ensureDbConnection);
 
 // Mount routers
 app.use('/api/auth', authRoutes);
