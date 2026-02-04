@@ -1,4 +1,5 @@
 const swaggerJsdoc = require('swagger-jsdoc');
+const path = require('path');
 
 const options = {
   definition: {
@@ -13,7 +14,11 @@ const options = {
     },
     servers: [
       {
-        url: 'https://qatrah-al-life-ays8.vercel.app/',
+        url: 'https://qatrah-al-life-ays8.vercel.app',
+        description: 'Production server',
+      },
+      {
+        url: 'http://localhost:5000',
         description: 'Development server',
       },
     ],
@@ -27,7 +32,10 @@ const options = {
       },
     },
   },
-  apis: ['./src/routes/*.js', './src/models/*.js'], // Path to the API docs
+  apis: [
+    path.join(__dirname, '../routes/*.js'),
+    path.join(__dirname, '../models/*.js')
+  ],
 };
 
 const specs = swaggerJsdoc(options);
